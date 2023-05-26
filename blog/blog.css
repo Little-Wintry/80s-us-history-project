@@ -1,0 +1,215 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: share tech mono;
+    background-color: #6e009d;
+}
+
+#nav {
+    background-color: white;
+    height: 50px;
+    z-index: 5;
+    margin-top: -10px;
+    margin-right: -7px;
+    margin-left: -7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav_item {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    margin-top: -10px;
+    margin-right: -7px;
+    margin-left: -7px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: magenta;
+    font-size: 60px;
+    color: black;
+    font-family: Audiowide;
+}
+
+.post {
+    background-color: #9b0ed7;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#cassette {
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    opacity: 40%;
+    object-fit: cover;
+}
+
+#header_text {
+    justify-content: center;
+    z-index: 1;
+}
+
+.post {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#intro_post_text {
+    width: 75%;
+}
+
+#big-text {
+    font-size: 36px;
+}
+
+#intro_post_pic {
+    height: 250px;
+    width: 250px;
+}
+
+#img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+#mj-img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    object-position: 100% 0;
+}
+
+#intro_link {
+    z-index: 10;
+    opacity: 0;
+}
+
+#mj_post_pic {
+    height: 250px;
+    width: 250px;
+}
+
+#prince_post_pic {
+    height: 250px;
+    width: 250px;
+}
+
+#madonna_post_pic {
+    height: 250px;
+    width: 250px;
+}
+
+.misc_post {
+    height: 250px;
+    width: 250px;
+    outline: 1px solid aqua;
+}
+
+#closer_post_pic {
+    height: 250px;
+    width: 250px;
+}
+
+#small_five {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: -7px;
+    margin-left: -7px;
+    padding: 20px;
+    background-color: #9b0ed7;
+    color: white;
+}
+
+#whitney {
+    height: 350px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#whitney_intro_pic {
+    height: 100%;
+    width: 100%;
+}
+
+#whitney_intro_pic2 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#U2 {
+    height: 350px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#U2_intro_pic {
+    height: 300px;
+    width: 100%;
+}
+
+#U2_intro_pic2 {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#rundmc {
+    height: 350px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#rundmc_intro_pic {
+    height: 100%;
+    width: 100%;
+}
+
+#queen {
+    height: 350px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#queen_intro_pic {
+    height: 100%;
+    width: 100%;
+}
+
+#bruce {
+    height: 350px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bruce_intro_pic {
+    height: 100%;
+    width: 100%;
+}
